@@ -1,0 +1,24 @@
+aptitude -y install xorg vim ntp cups
+
+aptitude -y install --without-recommends xfce4-session xfwm4 xfce4-utils
+
+aptitude -y install network-manager-gnome notify-osd plymouth-theme-xubuntu-logo pcmanfm xfce-keyboard-shortcuts xfce4-mixer xfce4-panel xfce4-settings xscreensaver xfce4-clipman xfce4-power-manager ttf-droid ttf-dejavu ttf-freefont ttf-liberation ttf-opensymbol ttf-ubuntu-font-family p7zip-full update-manager xubuntu-gdm-theme xfce4-volumed
+
+# appearence
+aptitude -y install --without-recommends xubuntu-artwork xubuntu-icon-theme feh
+
+# basic software
+aptitude -y install firefox suckless-tools transmission-gtk ubuntu-restricted-addons keepassx unetbootin ipython
+aptitude -y install --without-recommends libreoffice-gnome libreoffice-writer evince file-roller gedit alacarte gnome-terminal eog
+
+# multimedia
+aptitude -y install gimp picard vlc flac cuetools shntool ffmpeg
+aptitude -y install --without-recommends  exfalso quodlibet
+
+# for japanese
+aptitude -y install language-selector-gnome
+
+# for volume key shortcuts
+# amixer set Master 5+
+# amixer set Master 5-
+# amixer set Master toggle
