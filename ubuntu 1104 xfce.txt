@@ -1,3 +1,4 @@
+# replace xorg for intel-only video
 aptitude -y install xorg vim ntp cups
 
 aptitude -y install --without-recommends xfce4-session xfwm4 xfce4-utils
@@ -9,7 +10,7 @@ aptitude -y install --without-recommends xubuntu-artwork xubuntu-icon-theme feh
 
 # basic software
 aptitude -y install firefox suckless-tools transmission-gtk ubuntu-restricted-addons keepassx unetbootin ipython
-aptitude -y install --without-recommends libreoffice-gnome libreoffice-writer evince file-roller gedit alacarte gnome-terminal eog
+aptitude -y install --without-recommends libreoffice-gnome libreoffice-writer evince file-roller gedit gnome-terminal eog
 
 # multimedia
 aptitude -y install gimp picard vlc flac cuetools shntool ffmpeg
@@ -18,7 +19,5 @@ aptitude -y install --without-recommends  exfalso quodlibet
 # for japanese
 aptitude -y install language-selector-gnome
 
-# for volume key shortcuts
-# amixer set Master 5+
-# amixer set Master 5-
-# amixer set Master toggle
+# restore default menu
+# cp /etc/xdg/menus/xfce-applications.menu ~/.config/menus/
