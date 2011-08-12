@@ -21,3 +21,5 @@ aptitude -y install language-selector-gnome
 
 # restore default menu
 # cp /etc/xdg/menus/xfce-applications.menu ~/.config/menus/
+
+# comment the eth0 lines in /etc/network/interfaces
