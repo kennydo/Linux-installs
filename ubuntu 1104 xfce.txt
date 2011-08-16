@@ -22,6 +22,9 @@ aptitude -y install language-selector-gnome
 # productivity
 aptitude -y install ipython lyx network-manager-openconnect-gnome
 
+# printing
+aptitude -y install system-config-printer-gnome foomatic-db
+
 # restore default menu
 # cp /etc/xdg/menus/xfce-applications.menu ~/.config/menus/
 
