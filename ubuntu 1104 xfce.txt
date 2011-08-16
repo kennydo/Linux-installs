@@ -20,7 +20,7 @@ aptitude -y install --without-recommends  exfalso quodlibet
 aptitude -y install language-selector-gnome
 
 # productivity
-aptitude -y install ipython lyx 
+aptitude -y install ipython lyx network-manager-openconnect-gnome
 
 # restore default menu
 # cp /etc/xdg/menus/xfce-applications.menu ~/.config/menus/
