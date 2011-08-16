@@ -9,7 +9,7 @@ aptitude -y install network-manager-gnome notify-osd plymouth-theme-xubuntu-logo
 aptitude -y install --without-recommends xubuntu-artwork xubuntu-icon-theme feh dmz-cursor-theme
 
 # basic software
-aptitude -y install firefox suckless-tools transmission-gtk ubuntu-restricted-addons keepassx unetbootin
+aptitude -y install firefox suckless-tools transmission-gtk ubuntu-restricted-addons keepassx unetbootin gparted
 aptitude -y install --without-recommends libreoffice-gnome libreoffice-writer evince file-roller gedit gnome-terminal eog
 
 # multimedia
