@@ -9,7 +9,7 @@ aptitude -y install network-manager-gnome notify-osd plymouth-theme-xubuntu-logo
 aptitude -y install --without-recommends xubuntu-artwork xubuntu-icon-theme feh dmz-cursor-theme
 
 # basic software
-aptitude -y install firefox suckless-tools transmission-gtk ubuntu-restricted-addons keepassx unetbootin ipython
+aptitude -y install firefox suckless-tools transmission-gtk ubuntu-restricted-addons keepassx unetbootin
 aptitude -y install --without-recommends libreoffice-gnome libreoffice-writer evince file-roller gedit gnome-terminal eog
 
 # multimedia
@@ -18,6 +18,9 @@ aptitude -y install --without-recommends  exfalso quodlibet
 
 # for japanese
 aptitude -y install language-selector-gnome
+
+# productivity
+aptitude -y install ipython lyx 
 
 # restore default menu
 # cp /etc/xdg/menus/xfce-applications.menu ~/.config/menus/
