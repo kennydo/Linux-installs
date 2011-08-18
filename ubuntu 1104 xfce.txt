@@ -24,7 +24,7 @@ aptitude -y install --without-recommends  exfalso quodlibet quodlibet-ext
 aptitude -y install language-selector-gnome
 
 # productivity
-aptitude -y install ipython lyx network-manager-openconnect-gnome
+aptitude -y install ipython lyx network-manager-openconnect-gnome git
 
 # printing
 aptitude -y install system-config-printer-gnome foomatic-db
