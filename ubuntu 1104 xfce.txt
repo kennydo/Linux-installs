@@ -1,5 +1,5 @@
 # replace xorg for intel-only video
-aptitude -y install xorg vim ntp cups
+aptitude -y install xserver-xorg-video-intel vim ntp cups
 
 aptitude -y install --without-recommends xfce4-session xfwm4 xfce4-utils
 
