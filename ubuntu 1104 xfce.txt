@@ -3,7 +3,7 @@ aptitude -y install xserver-xorg-video-intel vim ntp cups
 
 aptitude -y install --without-recommends xfce4-session xfwm4 xfce4-utils
 
-aptitude -y install network-manager-gnome notify-osd plymouth-theme-xubuntu-logo pcmanfm xfce-keyboard-shortcuts xfce4-mixer xfce4-panel xfce4-settings xscreensaver xfce4-clipman xfce4-power-manager ttf-droid ttf-dejavu ttf-freefont ttf-liberation ttf-opensymbol ttf-ubuntu-font-family p7zip-full update-manager xubuntu-gdm-theme xfce4-volumed unrar unzip
+aptitude -y install network-manager-gnome notify-osd plymouth-theme-xubuntu-logo pcmanfm xfce-keyboard-shortcuts xfce4-mixer xfce4-panel xfce4-settings xscreensaver xfce4-clipman xfce4-power-manager ttf-droid ttf-dejavu ttf-freefont ttf-liberation ttf-opensymbol ttf-ubuntu-font-family update-manager xubuntu-gdm-theme xfce4-volumed
 
 # needed for xsessionrc that makes the trackpoint work
 aptitude -y install xinput
@@ -11,6 +11,9 @@ aptitude -y install xinput
 # appearence
 # note: xfdestop4 gives icons that require thunar
 aptitude -y install --without-recommends xubuntu-artwork xubuntu-icon-theme dmz-cursor-theme xfdesktop4 gtk2-engines-pixbuf
+
+# utility
+aptitude -y install unzip p7zip-full
 
 # basic software
 aptitude -y install firefox suckless-tools transmission-gtk ubuntu-restricted-addons keepassx unetbootin gparted
@@ -24,7 +27,7 @@ aptitude -y install --without-recommends  exfalso quodlibet quodlibet-ext
 aptitude -y install language-selector-gnome
 
 # productivity
-aptitude -y install ipython lyx network-manager-openconnect-gnome git
+aptitude -y install ipython network-manager-openconnect-gnome git
 
 # printing
 aptitude -y install system-config-printer-gnome foomatic-db
