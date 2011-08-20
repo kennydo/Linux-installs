@@ -13,10 +13,10 @@ aptitude -y install xinput
 aptitude -y install --without-recommends xubuntu-artwork xubuntu-icon-theme dmz-cursor-theme xfdesktop4 gtk2-engines-pixbuf
 
 # utility
-aptitude -y install unzip p7zip-full
+aptitude -y install unzip p7zip-full 
 
 # basic software
-aptitude -y install firefox suckless-tools transmission-gtk ubuntu-restricted-addons keepassx unetbootin gparted
+aptitude -y install firefox suckless-tools transmission-gtk ubuntu-restricted-extras keepassx unetbootin gparted
 aptitude -y install --without-recommends libreoffice-gnome libreoffice-writer evince file-roller gedit gnome-terminal eog
 
 # multimedia
