@@ -1,0 +1,48 @@
+aptitude -y install xserver-xorg vim
+aptitude -y install lightdm-gtk-greeter
+
+aptitude -y install --without-recommends gnome-terminal
+
+aptitude -y install --without-recommends xfwm4 xfce4-utils xscreensaver
+aptitude -y install xfce4-session
+
+aptitude -y install network-manager-gnome notify-osd
+
+aptitude -y install ttf-dejavu ttf-droid ttf-freefont ttf-liberation ttf-lyx ttf-opensymbol ttf-ubuntu-font-family
+
+aptitude -y install dmz-cursor-theme xubuntu-icon-theme xfdesktop4 xubuntu-artwork xubuntu-default-settings xfce4-power-manager xfce4-mixer
+
+aptitude -y install thunar
+
+# end of necessary installs
+
+# utility
+aptitude -y install unzip p7zip-full 
+
+# basic software
+aptitude -y install firefox suckless-tools transmission-gtk ubuntu-restricted-extras keepassx unetbootin gparted
+aptitude -y install --without-recommends evince file-roller gedit eog
+
+# multimedia
+aptitude -y install gimp picard vlc flac cuetools shntool ffmpeg
+aptitude -y install --without-recommends exfalso quodlibet quodlibet-ext
+
+# for japanese
+aptitude -y install ibus-anthy language-selector-gnome
+
+# productivity
+aptitude -y install ipython network-manager-openconnect-gnome git htop
+aptitude -y install --without-recommends libreoffice-gnome libreoffice-writer libreoffice-calc libreoffice-impress
+
+# printing
+aptitude -y install system-config-printer-gnome foomatic-db
+
+# restore default menu
+# cp /etc/xdg/menus/xfce-applications.menu ~/.config/menus/
+
+# comment the eth0 lines in /etc/network/interfaces
+
+# change the clock to use "%a %b %e, %I:%M %p"
+
+# disable guest account by adding to /etc/lightdm/lightdm.conf
+# allow-guest=false
