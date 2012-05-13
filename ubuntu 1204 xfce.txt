@@ -1,0 +1,18 @@
+aptitude -y install xserver-xorg vim
+aptitude -y install lightdm-gtk-greeter
+
+aptitude -y install --without-recommends gnome-terminal
+
+aptitude -y install --without-recommends xfwm4 xfce4-utils xscreensaver
+aptitude -y install xfce4-session
+
+aptitude -y install network-manager-gnome xfce4-notifyd
+
+aptitude -y install ttf-dejavu ttf-droid ttf-freefont ttf-liberation ttf-lyx ttf-opensymbol ttf-ubuntu-font-family
+
+aptitude -y install dmz-cursor-theme xubuntu-icon-theme xubuntu-artwork xubuntu-default-settings
+
+aptitude -y install xfdesktop4 xfce4-power-manager 
+aptitude -y install pavucontrol pulseaudio xfce4-indicator-plugin
+
+aptitude -y install thunar
