@@ -13,7 +13,7 @@ aptitude -y install ttf-dejavu ttf-droid ttf-freefont ttf-liberation ttf-lyx ttf
 aptitude -y install dmz-cursor-theme xubuntu-icon-theme xubuntu-artwork xubuntu-default-settings
 
 aptitude -y install xfdesktop4 xfce4-power-manager 
-aptitude -y install pavucontrol pulseaudio xfce4-indicator-plugin
+aptitude -y install pavucontrol pulseaudio xfce4-indicator-plugin indicator-sound-gtk2
 
 aptitude -y install thunar alacarte
 
