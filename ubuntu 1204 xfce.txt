@@ -15,4 +15,32 @@ aptitude -y install dmz-cursor-theme xubuntu-icon-theme xubuntu-artwork xubuntu-
 aptitude -y install xfdesktop4 xfce4-power-manager 
 aptitude -y install pavucontrol pulseaudio xfce4-indicator-plugin
 
-aptitude -y install thunar
+aptitude -y install thunar alacarte
+
+# end of necessary installs
+
+# utility
+aptitude -y install unzip p7zip-full
+
+# basic software
+aptitude -y install firefox suckless-tools transmission-gtk keepassx unetbootin gparted
+aptitude -y install --without-recommends evince file-roller gedit eog
+
+# multimedia
+aptitude -y install gimp picard vlc flac cuetools shntool ffmpeg
+aptitude -y install --without-recommends exfalso quodlibet quodlibet-ext
+
+# for japanese
+aptitude -y install ibus-anthy language-selector-gnome
+
+# productivity
+aptitude -y install ipython network-manager-openconnect-gnome git htop tmux
+aptitude -y install --without-recommends libreoffice-gnome libreoffice-writer libreoffice-calc libreoffice-impress
+
+# printing
+aptitude -y install system-config-printer-gnome foomatic-db
+
+# change the clock to use "%a %b %e, %I:%M %p"
+
+# disable guest account by adding to /etc/lightdm/lightdm.conf
+# allow-guest=false
