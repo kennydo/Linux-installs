@@ -40,6 +40,10 @@ aptitude -y install --without-recommends libreoffice-gnome libreoffice-writer li
 # printing
 aptitude -y install system-config-printer-gnome foomatic-db
 
+# this package sometimes craps up during install
+# also, it requires manually responding yes to the eula
+aptitude -y install ubuntu-restricted-extras
+
 # change the clock to use "%a %b %e, %I:%M %p"
 
 # disable guest account by adding to /etc/lightdm/lightdm.conf
