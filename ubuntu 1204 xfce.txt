@@ -28,7 +28,7 @@ aptitude -y install --without-recommends evince file-roller gedit eog
 
 # multimedia
 aptitude -y install gimp picard vlc flac cuetools shntool ffmpeg
-aptitude -y install --without-recommends exfalso quodlibet quodlibet-ext
+aptitude -y install --without-recommends exfalso quodlibet
 
 # for japanese
 aptitude -y install ibus-anthy language-selector-gnome
